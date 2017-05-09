@@ -1,0 +1,80 @@
+/* COLOR SCHEME (DARKEST TO LIGHTEST COLOR)
+DARK BLUE: #011D2D
+           #025261
+           #0196B6
+LIGHT BLUE: #52D9EE
+ALMOST WHITE: #D4FDFD
+LIGHT ORANGE: #F87C60
+
+
+*/
+
+body {
+	background-color: #D4FDFD;
+	font-family: verdana, arial, helvetica;
+	color: black;
+
+}
+
+#wrapper  {
+	width: 800px;
+	background-color: #D4FDFD;
+}
+
+header {
+	height: 150px;
+	background-color: #52D9EE;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 50px;
+	color: #011D2D;
+	padding-top: 30px;
+	padding-left: 150px;
+
+}
+
+nav {
+	width: 200px;
+	float: left;
+	min-height: 400px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0 0 0 10px;
+	margin: 20px 0 0 0;
+}
+
+nav li {
+	border: 1px solid black;
+	width: 120px;
+	margin-top: 5px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	padding-left: 5px;
+}
+
+main {
+	display: block; /* shim for IE */
+	min-height: 400px;
+	margin-left: 255px;
+	background-color: #F87C60;
+	padding: 15px;
+	border-left: 1px solid gray;
+}
+
+main ul {
+	list-style-image: url(images/palmtree.png);
+}
+
+footer {
+	font-style: italic;
+	background-color: #0196B6;
+	text-align: center;
+	padding: 10px 150px;
+}

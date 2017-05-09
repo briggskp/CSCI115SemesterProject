@@ -1,7 +1,18 @@
+/* COLOR SCHEME (DARKEST TO LIGHTEST COLOR)
+DARK BLUE: #011D2D
+           #025261
+           #0196B6
+LIGHT BLUE: #52D9EE
+ALMOST WHITE: #D4FDFD
+LIGHT ORANGE: #F87C60
+
+
+*/
+
 body {
   background-color: #0196B6;
   font-family: tahoma arial,sans-serif;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -18,7 +29,6 @@ header h1 {
 
 #heropic {
   height: 350px;
-  background-color: lightpink;
   clear: both;
   border: 2px solid #DDDDDD;
 }
@@ -27,7 +37,7 @@ header h1 {
   background-color: #F87C60;
   width: 950px;
   margin: auto;
-  length: auto;
+
 }
 
 #header {
